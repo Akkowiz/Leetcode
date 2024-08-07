@@ -26,3 +26,4 @@ Given a roman numeral, convert it to an integer.
 ## Personal Notes
 
 Managed to solve it by making a dictionary (I -> 1, V -> 5, etc etc...)
+In the reviewed version I made a variable out of the roman sign that is currently being pointed to, to make it a bit more clear whats going on

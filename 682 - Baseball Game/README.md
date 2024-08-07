@@ -21,3 +21,4 @@ The test cases are generated such that the answer and all intermediate calculati
 
 I couldve used stacks instead of a list to maybe make it  more performant(?) / 
 Looking at other C# Solutions, I see stacks being used quite alot atleast
+In the reviewed version I got rid completely of the for-loop that calculated my sum by using .Sum()

@@ -9,3 +9,4 @@ A word is a maximal substring consisting of non-space characters only.
 ## Personal Notes
 
 I ran into a small issue because I forgot that strings are 0-indexed too
+In the reviewed version I added comments to the while loops, to make it more clear what is going on
