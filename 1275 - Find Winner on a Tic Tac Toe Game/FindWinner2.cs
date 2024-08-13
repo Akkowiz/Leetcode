@@ -1,12 +1,5 @@
 ﻿public class Solution {
-    public string Tictactoe(int[][] moves) {
-
-        if(moves.Length <= 4){
-            return "Pending";
-        }
-
-        static bool CheckWinCondition(List<string> Player)
-        {
+    static bool CheckWinCondition(List<string> Player){
         // Checks horizontal win conditions
         if(Player.Contains("0,0") && Player.Contains("0,1") && Player.Contains("0,2") || 
         Player.Contains("1,0") && Player.Contains("1,1") && Player.Contains("1,2") || 
@@ -26,8 +19,13 @@
             }
 
         else{
-            return null;
+            return false;
             }
+        }
+    public string Tictactoe(int[][] moves) {
+
+        if(moves.Length <= 4){
+            return "Pending";
         }
 
         List<string> PlayerA = new List<string>();
@@ -56,7 +54,7 @@
             return "B";
         }
 
-        else if(string.IsNullOrEmpty(Result) && moves.Length == 9){
+        else if(moves.Length == 9){
             return "Draw";
         }
 
