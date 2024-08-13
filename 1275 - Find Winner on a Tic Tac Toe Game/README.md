@@ -21,3 +21,6 @@ It works but I want to revisit this task this week since this could be done more
 
 I created a method for checking the winconditions of tictactoe and made 2 stringlists I can use to see 
 which fields have been taken by which player.
+
+Update: In the second version (FindWinner2.cs) is less logic involved to check the cases + I could remove the result variable
+by simply using return in the appropriate places
