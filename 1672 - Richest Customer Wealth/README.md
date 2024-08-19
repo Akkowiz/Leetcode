@@ -22,3 +22,5 @@ since the amount of elements in the array are fixed (x amount of banks each pers
 variable instead of having to get the length of the array each time.
 
 But the first version has a bit less memoryspace in return so both versions have an advantage I suppose
+
+The 3rd version is an afterthought I just had because I remembered the sum function in C#. With it, I can get rid of 1 for loop
