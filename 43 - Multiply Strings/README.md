@@ -17,7 +17,5 @@ Output: "56088"
 
 ## Personal Notes
 The draft worked up until testcase 121 of 300+ but int ended up being too small for the results.
-Also I might not fulfill the part of "You must not use any built-in BigInteger library or convert the inputs to integer directly."
-with the for loops that recreate the strings but as ints. 
 
 Will come back to this task later
