@@ -27,3 +27,4 @@ Explanation: counter() initially returns -2. Then increases after each sebsequen
 
 Very quick solution but I learned about closures in JS, how the inner function has access to the variable
 from the outer function without having to pass the variable further
+xD
