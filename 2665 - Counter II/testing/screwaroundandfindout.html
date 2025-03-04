@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Screw around and find out</title>
+	</head>
+	<body>
+		<script>
+			// init will be some integer
+			var createCounter = function (init) {
+				let count = init;
+				return {
+					increment: function (count) {
+						count++;
+						return count;
+					},
+					decrement: function (count) {
+						count--;
+						return count;
+					},
+					reset: function (count) {
+						count = init;
+						return count;
+					},
+				};
+			};
+		</script>
+	</body>
+</html>
